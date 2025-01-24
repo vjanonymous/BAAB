@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burnout Anonymous</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .gallery-item {
+            position: relative;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto%;
+            object-fit: cover; /* Ensure images maintain aspect ratio */
+        }
+        .gallery-title {
+            position: absolute;
+            top: 5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="/Users/varunjhawar/Downloads/BA webpage/photo1.jpg" alt="First Image">
+            <img src="/Users/varunjhawar/Downloads/BA webpage/photo2.jpg" alt="Second Image">
+            <img src="/Users/varunjhawar/Downloads/BA webpage/photo4.jpg" alt="Third Image">
+            <div class="gallery-title">Burnout Anonymous</div>
+        </div>
+        <!-- Add more gallery items here -->
+    </div>
+</body>
+</html>
